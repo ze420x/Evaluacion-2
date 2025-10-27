@@ -56,7 +56,7 @@ while True:
     profile = ["car", "bike", "foot"]
     vehicle = input("Ingrese un perfil de vehículo de la lista anterior: ").lower()
 
-    if vehicle in ["s", "salir", "q", "quit"]:
+    if vehicle in ["s", "salir"]:
         print("Saliendo del programa...")
         break
     elif vehicle not in profile:
@@ -64,13 +64,13 @@ while True:
         print("No se ingresó un perfil válido. Se usará el perfil por defecto: auto.")
 
     loc1 = input("Ubicación de inicio: ")
-    if loc1.lower() in ["s", "salir", "q", "quit"]:
+    if loc1.lower() in ["s", "salir"]:
         print("Saliendo del programa...")
         break
     orig = geocoding(loc1, key)
 
     loc2 = input("Destino: ")
-    if loc2.lower() in ["s", "salir", "q", "quit"]:
+    if loc2.lower() in ["s", "salir"]:
         print("Saliendo del programa...")
         break
     dest = geocoding(loc2, key)

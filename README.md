@@ -42,7 +42,7 @@ python rutas_graphhopper.py
   ⏱️ El tiempo estimado  
   🗒️ Las instrucciones paso a paso  
 
-👉 Para salir del programa, escribir s, salir, q o quit en cualquier momento.  
+👉 Para salir del programa, escribir s, salir en cualquier momento.  
 
 ------------------------------------------------------------
 

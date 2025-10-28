@@ -42,7 +42,7 @@ python rutas_graphhopper.py
   ⏱️ El tiempo estimado  
   🗒️ Las instrucciones paso a paso  
 
-👉 Para salir del programa, escribir s, salir en cualquier momento.  
+👉 Para salir del programa, escribir S o Salir. Para salir en cualquier momento.  
 
 ------------------------------------------------------------
 
@@ -62,4 +62,5 @@ Instrucciones:
 
 - Si no se elige un perfil válido, se usará car 🚗 por defecto.  
 - Es necesario tener conexión a Internet 🌐 para que funcione la API.  
+
 
